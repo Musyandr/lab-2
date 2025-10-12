@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9fbfd;
+    color: #222831;
+    margin: 0;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: #146b8d;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.3rem; /*A font size of 2.3rem is equal to 36.8px, assuming the browser's default root font size is the standard 16px.*/
+    letter-spacing: 0.03em;/* 0.03em means 0.03 times the size of the parent element's font in CSS.*/
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+ul {
+    margin: 16px 0 24px 32px;
+    padding: 0;
+    color: #393e46;
+}
+
+li {
+    margin-bottom: 8px;
+    padding-left: 2px;
+    font-size: 1.07rem;
+}
+
+p {
+    margin-top: 16px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+a {
+    color: #0a87be;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover, a:focus {
+    color: #34b4fb;
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding: 0 12px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    ul {
+        margin-left: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0 6px;
+    }
+    h1 {
+        font-size: 1.3rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 1rem;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    ul {
+        margin-left: 9px;
+        font-size: 0.97rem;
+    }
+    li {
+        font-size: 0.95rem;
+    }
+    p {
+        font-size: 0.97rem;
+    }
+}
