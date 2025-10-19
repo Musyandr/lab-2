@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
 <h1>Welcome to our website!</h1>
@@ -19,7 +20,15 @@
     <li>Contact information</li>
 </ul>
 
+<div id="personal-greeting-container">
+    <input type="text" id="name-input" placeholder="Enter your name">
+</div>
+
 <p>You can find more information on our <a href="about.html">about page</a> or contact us via <a href="mailto:info@example.com">email</a>.</p>
+
+<div id="greeting-output"></div>
+
+<button onclick="toggleTheme()", id="toggleTheme-001-unique">Toggle Theme</button>
 </body>
 </html>
 

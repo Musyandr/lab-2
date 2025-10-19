@@ -93,3 +93,13 @@ a:hover, a:focus {
         font-size: 0.97rem;
     }
 }
+
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
