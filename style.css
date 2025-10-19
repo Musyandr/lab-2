@@ -103,3 +103,63 @@ a:hover, a:focus {
     background-color: #1a1a1a;
     color: #f0f0f0;
 }
+
+#comments-container {
+    margin-top: 32px;
+    padding: 20px;
+    background-color: #f1f7fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(20, 107, 141, 0.04);
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#data-container {
+    margin-top: 32px;
+    padding: 20px;
+    background-color: #f1f7fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(20, 107, 141, 0.04);
+}
+
+#load-data-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #146b8d;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#load-data-btn:hover {
+    background-color: #34b4fb;
+}
+
+#custom-data-container {
+    margin-top: 32px;
+    padding: 20px;
+    background-color: #f1f7fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(20, 107, 141, 0.04);
+}
+
+#custom-load-data-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #146b8d;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#custom-load-data-btn:hover {
+    background-color: #34b4fb;
+}
