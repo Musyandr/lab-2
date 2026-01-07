@@ -493,5 +493,10 @@ def delete_grade(grade_id):
     
     return redirect(url_for('points'))
 
+@app.after_request
+def apply_csp(response):
+    response.headers["Content-Security-Policy"] = "script-src 'self'"
+    return response
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)

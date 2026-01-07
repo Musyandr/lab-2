@@ -85,7 +85,7 @@
     <ul>
         {% for student in students %}
         <li>
-            <a href="{{ url_for('student_grades', student_id=student[0]) }}">{{ student[1] }}</a>
+            <a href="{{ url_for('student_grades', student_id=student[0]) }}">{{ student[1] | safe }}</a>
         </li>
         {% endfor %}
     </ul>
